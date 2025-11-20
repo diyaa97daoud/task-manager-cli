@@ -32,11 +32,6 @@ This project demonstrates professional software engineering practices including:
 
 ### 1. Clone the Repository
 
-```bash
-git clone <your-repository-url>
-cd task-manager
-```
-
 ### 2. Create Virtual Environment (Recommended)
 
 ```bash
