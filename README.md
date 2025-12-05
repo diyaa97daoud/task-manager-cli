@@ -1,6 +1,18 @@
 # Task Manager CLI
 
-A comprehensive command-line task management application with static code analysis, automated testing, and robust logging.
+A comprehensive command-line task management application built for the **Testing Frameworks and Software Debugging** course. This project demonstrates professional software engineering practices including static code analysis, automated testing, comprehensive logging, and debugging proficiency.
+
+## 📋 Assignment Requirements
+
+This project fulfills all 5 requirements for the TFSD course:
+
+1. ✅ **Static Code Analysis** - Black, Flake8, Pylint, MyPy
+2. ✅ **Pre-commit Hooks** - Automated quality checks on every commit
+3. ✅ **Comprehensive Logging** - All 5 levels (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+4. ✅ **Unit Testing** - 33 tests with 95% coverage
+5. ⏳ **Debugging Video** - VS Code debugging demonstration (to be recorded)
+
+**👉 See [`SUBMISSION_GUIDE.md`](./SUBMISSION_GUIDE.md) for complete assignment proof and documentation.**
 
 ## Project Overview
 
