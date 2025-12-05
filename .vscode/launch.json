@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: CLI - Add Task",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.cli",
+      "args": [
+        "add",
+        "Debug Test Task",
+        "--priority",
+        "high",
+        "--description",
+        "Testing debugging features"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: CLI - List Tasks",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.cli",
+      "args": ["list"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: CLI - List Overdue",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.cli",
+      "args": ["list", "--overdue"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Run Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/", "-v"],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    },
+    {
+      "name": "Python: Run Specific Test",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/test_task.py::TestTask::test_is_overdue_past_date", "-v"],
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}
