@@ -234,11 +234,3 @@ These tools can be integrated into CI/CD pipelines:
     pylint src/ tests/
     mypy src/
 ```
-
-## Further Reading
-
-- [Black Documentation](https://black.readthedocs.io/)
-- [Flake8 Documentation](https://flake8.pycqa.org/)
-- [Pylint Documentation](https://pylint.pycqa.org/)
-- [MyPy Documentation](https://mypy.readthedocs.io/)
-- [PEP 8 Style Guide](https://pep8.org/)
